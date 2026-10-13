@@ -8,6 +8,7 @@ Each topic has its own explanation, runnable example, and sample output.
 - [Canny edge detection](topics/canny-edge-detection/README.md) — find image boundaries by detecting sharp brightness changes.
 - [Hough line detection](topics/hough-line-detection/README.md) — group edge pixels into likely straight-line segments.
 - [Gaussian smoothing](topics/gaussian-smoothing/README.md) — reduce image detail and noise with Gaussian blur at several kernel sizes.
+- [Region of interest](topics/region-of-interest/README.md) — select and isolate a polygon-shaped part of an image with a mask.
 
 ### How these topics connect
 
@@ -15,6 +16,8 @@ Gaussian smoothing can reduce noise before edge detection. Canny creates an
 edge map from an image, and the Hough line transform can use those edge pixels
 as evidence to find straight lines. The Hough example combines all three ideas:
 it smooths the road image, detects edges with Canny, then detects line segments.
+A region-of-interest mask can be applied before these steps to focus processing
+on a selected part of an image, such as the road in a driving scene.
 
 ## Setup
 
