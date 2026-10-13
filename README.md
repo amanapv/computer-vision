@@ -9,6 +9,7 @@ Each topic has its own explanation, runnable example, and sample output.
 - [Hough line detection](topics/hough-line-detection/README.md) — group edge pixels into likely straight-line segments.
 - [Gaussian smoothing](topics/gaussian-smoothing/README.md) — reduce image detail and noise with Gaussian blur at several kernel sizes.
 - [Region of interest](topics/region-of-interest/README.md) — select and isolate a polygon-shaped part of an image with a mask.
+- [Shape recognition](topics/shape-recognition/README.md) — detect shape boundaries with Canny edges and contours.
 
 ### How these topics connect
 
