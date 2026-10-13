@@ -3,13 +3,6 @@
 A collection of small computer-vision projects built with Python and OpenCV.
 Each topic has its own explanation, runnable example, and sample output.
 
-## What is computer vision?
-
-Computer vision is a field of computing that helps computers interpret
-information in images and videos. It can be used to find patterns, identify
-objects, or measure visual features. This repository explores foundational
-image-processing techniques that help make those tasks possible.
-
 ## Projects
 
 - [Canny edge detection](topics/canny-edge-detection/README.md) — find image boundaries by detecting sharp brightness changes.
