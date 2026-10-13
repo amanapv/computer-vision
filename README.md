@@ -5,8 +5,7 @@ A collection of small computer-vision projects built with Python and OpenCV.
 ## Projects
 
 - [Canny edge detection](topics/canny-edge-detection/README.md) — load an image, convert it to grayscale, detect edges, and save the results.
-
-Future topics, such as the Hough transform, can be added as separate folders under `topics/`.
+- [Hough line detection](topics/hough-line-detection/README.md) — detect line segments in a road image with the probabilistic Hough transform.
 
 ## Setup
 
